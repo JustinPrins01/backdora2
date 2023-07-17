@@ -5,7 +5,7 @@ metadata:
   description: |
     Backstage is an open-source developer portal that puts the developer experience first.
   annotations:
-    sonarqube.org/project-key: localhost:9000/sqp_1f6d9aa37278a65903c9bd0dc421876114ae19d2
+    sonarqube.org/project-key: localhost:9000/backdora-test-project
 spec:
   type: library
   owner: CNCF
