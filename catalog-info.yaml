@@ -5,6 +5,7 @@ metadata:
   description: |
     Backstage is an open-source developer portal that puts the developer experience first.
   annotations:
+   baseurl: 'htttp://localhost:9000'
    sonarqube.org/project-key: backdora-test-project
 spec:
   type: library
