@@ -6,6 +6,8 @@ metadata:
     Backstage is an open-source developer portal that puts the developer experience first.
   annotations:
     sonarqube.org/project-key: backstage
+  # annotations:
+  #   sonarqube.org/project-key: backstage
    # sonarqube.org/project-key: backdora_backdora
    # sonarqube.org/project-key: backstage
 spec:
