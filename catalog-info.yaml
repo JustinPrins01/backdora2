@@ -7,6 +7,7 @@ metadata:
   annotations:
    sonarqube.org/project-key: plp/backstage
    # sonarqube.org/project-key: backdora_backdora
+   gitlab.com/project-id: "573"
 spec:
   type: library
   owner: CNCF
