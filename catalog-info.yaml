@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: sonarqube-test
+  name: sonarqube-test2
   description: |
     Backstage is an open-source developer portal that puts the developer experience first.
   annotations:
@@ -12,18 +12,6 @@ spec:
   type: library
   owner: CNCF
   lifecycle: experimental
-
-  apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-  name: component1
-  description: This is the first component in the catalog.
-  owner: teamA
-  // Add other metadata fields as needed
-spec:
-  type: service
-  lifecycle: experimental
-  // Add other configuration for component1
 
 ---
 apiVersion: backstage.io/v1alpha1
