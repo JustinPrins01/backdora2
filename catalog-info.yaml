@@ -5,25 +5,11 @@ metadata:
   description: |
     Backstage is an open-source developer portal that puts the developer experience first.
   annotations:
-   sonarqube.org/project-key: plp/backstage
-   # sonarqube.org/project-key: backdora_backdora
+   # sonarqube.org/project-key: plp/backstage
+   sonarqube.org/project-key: backdora_backdora
    # gitlab.com/project-id: "573"
 spec:
   type: library
   owner: CNCF
   lifecycle: experimental
 
----
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-  name: component2
-  description: This is the second component in the catalog.
-  owner: teamB
-  // Add other metadata fields as needed
-  annotations:
-   gitlab.com/project-id: "573"
-spec:
-  type: service
-  lifecycle: alpha
-  // Add other configuration for component2
